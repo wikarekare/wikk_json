@@ -5,6 +5,7 @@ Rakefile
 bin/wikk_json
 lib/wikk_json.rb
 lib/array.rb
+lib/boolean.rb
 lib/hash.rb
 lib/nil.rb
 lib/numeric.rb
