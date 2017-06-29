@@ -2,6 +2,7 @@
 class Hash
   # @return [String] Json for the Hash, and recurse for each value in the Hash
   def to_j(indent=0)
+    return "{}\n" if self.length == 0
     s = "{\n"
       self.each do |k,v| 
         if v.class == Array || v.class == Hash 

@@ -1,6 +1,6 @@
 module WIKK
   class Wikk_Json
-    VERSION = '0.1.1'
+    VERSION = '0.1.2'
   end
   
   require 'json'
