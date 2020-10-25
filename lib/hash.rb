@@ -1,5 +1,7 @@
 #Extend simple key => string Hash to output nicely formated json for SQL output
 class Hash
+  # Adds formatted json convertion
+  #
   # @return [String] Json for the Hash, and recurse for each value in the Hash
   def to_j(indent=0)
     return "{}\n" if self.length == 0

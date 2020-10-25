@@ -1,5 +1,7 @@
 #Extend Array to output nicely formated json.
 class Array
+  # Adds formatted json convertion
+  #
   # @return [String] Json array
   def to_j(indent=0)
     return "[]\n" if self.length == 0
