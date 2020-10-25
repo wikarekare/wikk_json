@@ -1,8 +1,8 @@
 # wikk_json
 
-* http://wikarekare.github.com/json/
-* Source https://github.com/wikarekare/json
-* Gem https://rubygems.org/gems/wikk_json
+* Docs :: https://wikarekare.github.io/wikk_json/
+* Source :: https://github.com/wikarekare/wikk_json
+* Gem :: https://rubygems.org/gems/wikk_json
 
 ## DESCRIPTION:
 
