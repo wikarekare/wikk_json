@@ -1,5 +1,5 @@
 #!/usr/local/bin/ruby
-require_relative '../lib/wikk_json.rb' # Local test version
+# require_relative '../lib/wikk_json.rb' # Local test version
 require 'wikk_json' # gem version
 
 a = {

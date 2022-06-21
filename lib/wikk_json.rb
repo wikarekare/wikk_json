@@ -2,7 +2,7 @@ module WIKK
   # Adds formatted json convertion
   #
   class Wikk_Json
-    VERSION = '0.1.4'
+    VERSION = '0.1.5'
   end
 
   require 'json'

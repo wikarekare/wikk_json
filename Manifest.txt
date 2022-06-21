@@ -10,3 +10,4 @@ lib/hash.rb
 lib/nil.rb
 lib/numeric.rb
 lib/string.rb
+lib/datetime.rb
