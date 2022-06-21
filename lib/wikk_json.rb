@@ -2,7 +2,7 @@ module WIKK
   # Adds formatted json convertion
   #
   class Wikk_Json
-    VERSION = '0.1.2'
+    VERSION = '0.1.3'
   end
 
   require 'json'
@@ -12,4 +12,5 @@ module WIKK
   require_relative 'string.rb'
   require_relative 'numeric.rb'
   require_relative 'boolean.rb'
+  require_relative 'datetime.rb'
 end

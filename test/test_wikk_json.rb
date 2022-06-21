@@ -1,4 +1,5 @@
-# require_relative "../lib/wikk_json.rb" #Local test version
+#!/usr/local/bin/ruby
+require_relative '../lib/wikk_json.rb' # Local test version
 require 'wikk_json' # gem version
 
 a = {
@@ -8,7 +9,10 @@ a = {
   'string' => 'string',
   'true' => true,
   'false' => false,
-  'nil' => nil
+  'nil' => nil,
+  'time' => Time.now,
+  'date' => Date.today,
+  'datetime' => DateTime.now
 }
 
 puts a.to_j
